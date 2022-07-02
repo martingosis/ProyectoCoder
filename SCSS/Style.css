@@ -1,0 +1,265 @@
+.header {
+  height: 100px;
+  background-color: black;
+}
+.header .elementos {
+  display: flex;
+  justify-content: right;
+}
+.header .navbar-toggler {
+  display: flex;
+  justify-content: right;
+  width: 100%;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+.header .nav-item {
+  display: flex;
+  padding-top: 25px;
+}
+.header .nav-link1 {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  margin-right: 40px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-family: "Lexend", sans-serif;
+}
+
+.footer {
+  position: relative;
+  background-color: rgb(198, 72, 72);
+  width: 100%;
+  height: 135px;
+}
+.footer .parrafo_final {
+  color: white;
+  font-family: "Lexend", sans-serif;
+  text-align: center;
+  padding-top: 15px;
+}
+.footer .enviar {
+  padding-top: 10px;
+}
+.footer .iconos {
+  display: flex;
+  justify-content: center;
+  margin-right: 10px;
+}
+.footer .iconos a {
+  margin: 20px;
+}
+.footer .iconof {
+  height: 35px;
+  width: 35px;
+}
+.footer .iconoi {
+  height: 35px;
+  width: 35px;
+}
+.footer .iconot {
+  height: 35px;
+  width: 35px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+* .logo {
+  display: flex;
+  position: absolute;
+  padding-left: 10px;
+  padding-top: 15px;
+  width: 65px;
+  height: 65px;
+}
+* .imagen {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 500px;
+  background-image: url(../IMG/background2.jpg);
+  background-size: cover;
+  background-position: center;
+}
+* .main_nosotros {
+  height: 730px;
+}
+* .imagen_nosotros {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 750px;
+  background-image: url(../IMG/background2.jpg);
+  background-size: cover;
+  background-position: center;
+}
+* .parrafo_nosotros p {
+  padding-top: 150px;
+  width: 100%;
+  color: white;
+  text-transform: uppercase;
+  font-family: "Lexend", sans-serif;
+  font-size: 1em;
+}
+* .parrafo_titulo p {
+  padding-top: 150px;
+  color: white;
+  text-transform: uppercase;
+  font-family: "Lexend", sans-serif;
+  font-size: 3em;
+  text-shadow: 0 0 2px;
+}
+* .main_catalogo {
+  height: 1500px;
+}
+* .imagen_catalogo {
+  width: 100%;
+  height: 500px;
+  background-image: url(../IMG/catalogo.jpg);
+  background-size: cover;
+  background-position: center;
+}
+* .section1 {
+  width: 100%;
+  height: 500px;
+}
+* .catalogo_grid_container {
+  gap: 20px;
+  padding: 20px;
+  padding: 20px;
+  text-align: center;
+  background-color: white;
+}
+* .caja {
+  display: flex;
+  padding-top: 40px;
+  padding-left: 30px;
+}
+* .img_card {
+  height: 40%;
+  padding-top: 20px;
+}
+* .card1 {
+  background-color: yellow;
+  border-radius: 15px;
+  width: 100%;
+  height: 400px;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+}
+* .main_contacto {
+  height: 900px;
+}
+* .card1 p {
+  align-items: center;
+  font-family: "Lexend", sans-serif;
+  padding-top: 40px;
+  text-transform: uppercase;
+  font-size: 20;
+}
+* .h3_formulario {
+  font-family: "Lexend", sans-serif;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+* .p {
+  font-family: "Lexend", sans-serif;
+}
+* .contact_form {
+  width: 460px;
+  height: auto;
+  margin: 80px auto;
+  border-radius: 10px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  background-color: #4b6782;
+  padding-left: 30px;
+}
+* input {
+  background-color: white;
+  width: 408px;
+  height: 40px;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  margin-top: 10px;
+  padding-left: 10px;
+  margin-bottom: 20px;
+}
+* textarea {
+  background-color: #fbfbfb;
+  width: 405px;
+  height: 150px;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  margin-top: 10px;
+  padding-left: 10px;
+  margin-bottom: 20px;
+  padding-top: 15px;
+}
+* label {
+  display: block;
+  float: center;
+  font-family: "Lexend", sans-serif;
+  text-transform: uppercase;
+}
+* button {
+  height: 45px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  text-transform: uppercase;
+  background-color: black;
+  border-style: solid;
+  border-radius: 10px;
+  width: 420px;
+  cursor: pointer;
+}
+* button p {
+  color: #fff;
+  font-family: "Lexend", sans-serif;
+}
+* span {
+  color: #ab4493;
+}
+* .aviso {
+  font-size: 13px;
+  color: #0e0e0e;
+  font-family: "Lexend", sans-serif;
+  text-transform: uppercase;
+}
+* h1 {
+  font-size: 39px;
+  text-align: letf;
+  padding-bottom: 20px;
+  color: black;
+  font-family: "Lexend", sans-serif;
+  text-transform: uppercase;
+}
+* h3 {
+  font-size: 16px;
+  padding-bottom: 30px;
+  color: black;
+}
+* p {
+  font-size: 14px;
+  color: black;
+}
+* ::-webkit-input-placeholder {
+  color: #a8a8a8;
+}
+* ::-webkit-textarea-placeholder {
+  color: #a8a8a8;
+}
+* .formulario input:focus {
+  outline: 0;
+  border: 1px solid red;
+}
+* .formulario textarea:focus {
+  outline: 0;
+  border: 1px solid red;
+}/*# sourceMappingURL=Style.css.map */

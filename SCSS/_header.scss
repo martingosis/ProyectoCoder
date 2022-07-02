@@ -1,0 +1,51 @@
+.header{
+  
+    height: 100px;
+    background-color: black;
+  
+  
+  
+    .elementos{
+  
+    display: flex;
+    justify-content: right;
+  
+    }
+  
+  
+  
+    .navbar-toggler{
+  
+    display: flex;
+    justify-content: right;
+    width: 100%;
+    margin-top: 20px;
+    margin-right: 20px; 
+  
+    }
+  
+  
+  
+    .nav-item{
+  
+    display: flex;
+    padding-top: 25px;
+  
+  
+    }
+  
+  
+    .nav-link1{
+  
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 40px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: 'Lexend', sans-serif;
+  
+    }
+
+
+}
