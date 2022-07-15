@@ -84,10 +84,24 @@
   
   .main_catalogo{
   
-    height: 1500px;
+   
   
   }
+
+  .main_novedades{
+
+   
+
+  }
   
+
+  .catalogo{
+
+    height: 900px;
+    background-color: #EEEEEE;
+
+  }
+
   
   .imagen_catalogo{
   
@@ -100,6 +114,29 @@
   
   }
   
+
+  .imagen_catalogo p{
+
+    padding-top: 40px;
+    padding-left: 30px;
+    font-family: 'Lexend', sans-serif;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+
+  }
+
+
+  .main_novedades p{
+
+    padding-top: 40px;
+    padding-left: 30px;
+    font-family: 'Lexend', sans-serif;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+
+  }
   
   
   
@@ -117,10 +154,21 @@
     
     gap: 20px;
     padding: 20px;
+    text-align: center;
+    background-color: white;
+    margin-bottom: 50px;
+  
+  }
+
+
+  .novedades_grid_container{
+
+    gap: 20px;
     padding: 20px;
     text-align: center;
     background-color: white;
-  
+    margin-bottom: 50px;
+
   }
   
   
@@ -142,22 +190,52 @@
   
   }
   
+
+  .titulo_disco{
+
+    height: 0px;
+
+  }
+
+
   
   .card1{
 
-    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    background-color: white;
     border-radius: 15px;
     width: 100%;
     height: 400px;
-    box-shadow: 0px 1px 10px rgb(0,0,0,0.2);
+  
     
     
   }
   
+
+  .card2{
+
+    background-color: #DCE0F1;
+    border-radius: 15px;
+    width: 400px;
+    height: 400px;
+    box-shadow: 0px 1px 10px rgb(0,0,0,0.2);
+    transition: transform 250ms;
+    
+   
+ }
+
+
+ .card2:hover{
+
+    transform: translateY(-5px);
+
+ }
+
   
   .main_contacto{
   
-    height: 900px;
+    height: 800px;
   
   }
   
@@ -167,9 +245,10 @@
   
     align-items: center;
     font-family: 'Lexend', sans-serif;
-    padding-top: 40px;
+    padding-top: 25px;
     text-transform: uppercase;
-    font-size: 20;
+    font-size: 15px;
+    font-weight: bold;
   
   }
   
@@ -183,7 +262,7 @@
   
   }
   
-  .p{
+  p{
   
     font-family: 'Lexend', sans-serif;
   
@@ -231,7 +310,7 @@
   }
   
   
-  label{
+  .label{
     display: block; 
     float: center;  
     font-family: 'Lexend', sans-serif;
@@ -239,33 +318,56 @@
   }
   
   
-  button{
-    height: 45px; 
-    padding-left: 5px;
-    padding-right: 5px;   
-    margin-bottom: 20px; 
-    margin-top: 10px;   
-    text-transform: uppercase;
-    background-color: black; 
-    border-style: solid; 
-    border-radius: 10px;  
-    width: 420px;   
+
+
+  .comprar{
+
+    width: 100px;
+    height: 40px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
     cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    overflow: hidden;
+    border-radius: 5px;
+    border: none;
+    background-color: #ef233c
+
   }
-  
-  
-  button p{
-    
-    color: #fff; 
-    font-family: 'Lexend', sans-serif;
-  
+
+  .comprar:hover {
+    border-radius: 5px;
+    padding-right: 24px;
+    padding-left:8px;
   }
-  
+  .comprar:hover:after {
+    opacity: 1;
+    right: 10px;
+  }
+  .comprar:after {
+    content: "\00BB";
+    position: absolute;
+    opacity: 0;
+    font-size: 20px;
+    line-height: 40px;
+    top: 0;
+    right: -20px;
+    transition: 0.4s;
+  }
+
+
   
   span{
     color: #ab4493; 
   }
   
+
+
+
   
   .aviso{
     font-size: 13px;  
